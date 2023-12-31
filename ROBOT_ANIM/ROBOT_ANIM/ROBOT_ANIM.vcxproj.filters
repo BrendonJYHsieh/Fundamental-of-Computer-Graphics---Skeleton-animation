@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{ffdc8f72-ebf5-4180-aa98-289abcf6bd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{42d06ef4-6420-40c9-a374-b78aff864530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{1b03cb45-5fbe-40cd-a67b-3397a925e923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{b130b3ee-8d1e-4183-87f3-273abaf8b37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\control">
+      <UniqueIdentifier>{de13b277-ee2e-4f38-88cb-a41b3357ad9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\glslprogram">
+      <UniqueIdentifier>{37d33607-38e2-4e80-806a-5198440693dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\glutils">
+      <UniqueIdentifier>{de2e9399-23f6-43f2-aed9-439655c6fba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\Math3D">
+      <UniqueIdentifier>{d8bb255f-4f56-427a-9357-ab9b4c677b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\Texture">
+      <UniqueIdentifier>{4f5643ec-f94d-4569-92fe-c8ee12735dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\objloader">
+      <UniqueIdentifier>{23230698-a791-4ed4-9939-ab1a3e70475c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\src\Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\SkeletalModel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GL\imgui_cpp\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GL\imgui_cpp\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GL\imgui_cpp\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GL\imgui_cpp\imgui_impl_glfw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GL\imgui_cpp\imgui_impl_opengl3.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GL\imgui_cpp\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GL\glad\glad.c">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="code\utils\controls.cpp">
+      <Filter>utils\control</Filter>
+    </ClCompile>
+    <ClCompile Include="code\utils\glslprogram.cpp">
+      <Filter>utils\glslprogram</Filter>
+    </ClCompile>
+    <ClCompile Include="code\utils\glutils.cpp">
+      <Filter>utils\glutils</Filter>
+    </ClCompile>
+    <ClCompile Include="code\utils\Math3D.cpp">
+      <Filter>utils\Math3D</Filter>
+    </ClCompile>
+    <ClCompile Include="code\utils\stb_image.c">
+      <Filter>utils\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="code\utils\Texture.cpp">
+      <Filter>utils\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="code\utils\objloader.cpp">
+      <Filter>utils\objloader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\header\Scene.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="code\header\SkeletalModel.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\controls.hpp">
+      <Filter>utils\control</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\glslprogram.h">
+      <Filter>utils\glslprogram</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\glutils.h">
+      <Filter>utils\glutils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\Math3D.h">
+      <Filter>utils\Math3D</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\Texture.h">
+      <Filter>utils\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\defines.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="code\utils\objloader.hpp">
+      <Filter>utils\objloader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\diffuse.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\diffuse.vert">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
